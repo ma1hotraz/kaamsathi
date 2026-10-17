@@ -57,7 +57,7 @@ CRITICAL TRUTHFULNESS & ANTI-HALLUCINATION RULES:
     
     // Use supported fast and reliable Gemini model
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       contents: [
         {
           role: 'user',
@@ -73,7 +73,7 @@ CRITICAL TRUTHFULNESS & ANTI-HALLUCINATION RULES:
     return NextResponse.json({
       reply,
       configured: true,
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       timestamp: new Date().toISOString(),
     });
   } catch (err: unknown) {

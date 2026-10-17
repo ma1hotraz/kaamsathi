@@ -157,7 +157,7 @@ export default function Home() {
             <span>Independent Gig Worker Digital Companion</span>
           </div>
           <div className="text-slate-400">
-            Real Gemini 2.5 API • Zero Hallucinations • Deterministic Math
+            Real Gemini 3.8 API • Zero Hallucinations • Deterministic Math
           </div>
         </div>
       </footer>

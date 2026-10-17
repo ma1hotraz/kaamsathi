@@ -111,7 +111,7 @@ export const AiCompanion: React.FC<AiCompanionProps> = ({ currentLang, earningsS
             <h2 className="text-sm font-bold text-white flex items-center space-x-2">
               <span>KaamSaathi AI Companion</span>
               <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded-full border border-slate-700">
-                Gemini 2.5 Flash
+                Gemini 3.8 Flash
               </span>
             </h2>
             <p className="text-[11px] text-slate-400">
